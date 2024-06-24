@@ -35,7 +35,7 @@ const SearchForm = ({ onSearch }) => {
     };
 
     return (
-        <form onSubmit={handleSubmit} className="space-y-4 p-4 bg-gray-100 rounded-lg w-2/3 mx-auto">
+        <form onSubmit={handleSubmit} className="space-y-4 p-4 bg-gray-100 rounded-lg w-2/3">
             <div className="flex">
                 <select
                     value={selectedType}
